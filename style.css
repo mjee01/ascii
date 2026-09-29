@@ -1,0 +1,82 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+@font-face {
+            font-family: 'Pixel';
+            src: url('PixelFontMe.otf') format('opentype');
+                 
+            
+        }
+
+       
+body{
+    font-family:'Pixel';
+    background-color:rgb(211, 208, 195);
+    
+}
+
+
+pre{
+    font-family:'Pixel';
+    color:rgb(134, 141, 155);
+    font-size: 15px;
+    word-spacing: 1px;
+    letter-spacing: -6px;
+}
+.house{
+    color:rgb(99, 96, 154);
+    line-height: 98%;
+    font-size:17px;
+}
+.title{
+    color:rgb(90, 85, 79);
+    font-size: 24px;
+    font-family:'Pixel';
+}
+.table{
+    font-family:'Pixel';
+    color:rgb(150, 114, 94);
+    font-size: 15px;
+    word-spacing: 1px;
+    letter-spacing: -6px;
+    line-height: 95%;
+    
+}
+
+.couch{
+    font-family:'Pixel';
+    color:rgb(72, 67, 68);
+    font-size: 15px;
+    word-spacing: 1px;
+    letter-spacing: -3px;
+    line-height: 140%;
+}
+.coffee{
+    font-family:'Pixel';
+    color:rgb(97, 22, 7);
+    font-size: 13px;
+    word-spacing: -1px;
+    letter-spacing: -3px;
+    line-height: 140%;
+}
+.big{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.small{
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 15px;
+    overflow-x: auto;
+    min-width: 0;
+}
+.last{
+    color:rgb(121, 9, 46);
+}
